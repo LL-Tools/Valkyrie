@@ -1,4 +1,4 @@
-# VALKYRIE: VULNERABILITY ASSESSMENT TOOL AND ATTACK FOR PROVABLY-SECURE LOGIC LOCKING TECHNIQUES
+# Valkyrie: Vulnerability Assessment Tool and Attack for Provably-Secure Logic Locking Techniques
 ## Contact Info
 This repository is the official implementation of the experiments in the following paper:
 

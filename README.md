@@ -45,7 +45,7 @@ Valkyrie is a security diagnostic tool for provably secure logic locking techniq
 ## Examples:
         ./Valkyrie returns the Usage of the tool
 
-        ./Valkyrie --design TTLock/b14_C/keysize_64/b14_C_TTLock_k_64_1_syn.v --orig_design Verilog/original/b14_C_2inp_gates_syn.v --lib lib/Nangate_Library_slow_ccs.db --lec_lib lib/NangateOpenCellLibrary_slow_ccs.lib --key_var key --keysize 64 --circuit_cone_size 128 --lib_module NangateOpenCellLibrary --logic0 LOGIC0_X1 --logic1 LOGIC1_X1 --technique DFLT --op_folder TTLock_new/ |tee log_b14_C_k_64_TTLock_1
+        ./Valkyrie --design ../TTLock/b14_C/keysize_64/b14_C_TTLock_k_64_1_syn.v --orig_design ../Verilog/original/b14_C_2inp_gates_syn.v --lib ../lib/Nangate_Library_slow_ccs.db --lec_lib ../lib/NangateOpenCellLibrary_slow_ccs.lib --key_var key --keysize 64 --circuit_cone_size 128 --lib_module NangateOpenCellLibrary --logic0 LOGIC0_X1 --logic1 LOGIC1_X1 --technique DFLT --op_folder TTLock_new/ |tee log_b14_C_k_64_TTLock_1
 
-        ./Valkyrie --design AntiSAT/b14_C/keysize_128/b14_C_AntiSAT_k_128_1_syn.v --orig_design Verilog/original/b14_C_2inp_gates_syn.v --lib lib/Nangate_Library_slow_ccs.db --lec_lib lib/NangateOpenCellLibrary_slow_ccs.lib --key_var key --keysize 128 --circuit_cone_size 192 --lib_module NangateOpenCellLibrary --logic0 LOGIC0_X1 --logic1 LOGIC1_X1 --technique SFLT --op_folder AntiSAT_new/ | tee log_b14_C_k_128_AntiSAT_1
+        ./Valkyrie --design ../AntiSAT/b14_C/keysize_128/b14_C_AntiSAT_k_128_1_syn.v --orig_design ../Verilog/original/b14_C_2inp_gates_syn.v --lib ../lib/Nangate_Library_slow_ccs.db --lec_lib ../lib/NangateOpenCellLibrary_slow_ccs.lib --key_var key --keysize 128 --circuit_cone_size 192 --lib_module NangateOpenCellLibrary --logic0 LOGIC0_X1 --logic1 LOGIC1_X1 --technique SFLT --op_folder AntiSAT_new/ | tee log_b14_C_k_128_AntiSAT_1
         

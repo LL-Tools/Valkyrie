@@ -7,7 +7,7 @@ N. Limaye, S. Patnaik, and O. Sinanoglu, "Valkyrie: Vulnerability Assessment Too
 [IEEE Link](https://ieeexplore.ieee.org/document/9703350)
 
 **Contact**
-Dr. Nimisha Limaye (nimisha.limaye@nyu.edu) or Dr. Satwik Patnaik (sp4012@nyu.edu)
+Dr. Nimisha Limaye (nimisha.limaye@nyu.edu) or Dr. Satwik Patnaik (satwik@udel.edu)
 ## Citation
 If you make use of the code/experiment or Valkyrie algorithm in your work, please cite our paper (Bibtex below).
 ```
